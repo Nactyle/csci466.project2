@@ -144,7 +144,6 @@ class RDT:
             # remove the packet bytes from the buffer
             self.byte_buffer = self.byte_buffer[length:]
             # if this was the last packet, will return on the next iteration
-        pass
 
     def rdt_3_0_send(self, msg_S):
         pass
